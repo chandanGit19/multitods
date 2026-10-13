@@ -1,5 +1,8 @@
 {
   "name": "mt",
+    "engines": {
+    "node": "22.x"
+  },
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -21,7 +24,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
-    "@nestjs/config": "^12.0.1",
+    "@nestjs/config": "^4.0.4",
     "@nestjs/core": "^11.0.1",
     "@nestjs/jwt": "^11.0.2",
     "@nestjs/mapped-types": "*",
@@ -88,4 +91,5 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   }
+
 }
