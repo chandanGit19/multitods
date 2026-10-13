@@ -5,7 +5,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 
 
-import { PrimsaService } from 'src/prisma.service';
+import { PrimsaService } from '../prisma.service';
 import { RealtimeGateWay } from './realtime.gateway';
 
 @Module({

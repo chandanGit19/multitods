@@ -3,7 +3,7 @@ import { RegisterDto } from './dto/register.dto';
 import { LoginDto } from './dto/login.dto';
 
 import {JwtService} from "@nestjs/jwt"
-import { PrimsaService } from 'src/prisma.service';
+import { PrimsaService } from '../prisma.service';
 
 import * as bcrypt from 'bcrypt';
 

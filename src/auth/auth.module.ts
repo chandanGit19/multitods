@@ -10,7 +10,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { AuthController } from './auth.controller';
 import { AuthService } from './auth.service';
 import { JwtStrategy } from './jwt.strategy';
-import { PrimsaService } from 'src/prisma.service';
+import { PrimsaService } from '../prisma.service';
 
 @Module({
   imports: [

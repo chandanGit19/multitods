@@ -1,6 +1,6 @@
 import {BadRequestException, ForbiddenException, Injectable, NotFoundException} from "@nestjs/common"
 import { CreateGroupDto } from "./dto/create-group.dto";
-import { PrimsaService } from "src/prisma.service";
+import { PrimsaService } from "../prisma.service";
 import { GroupInviteStatus, GroupRole } from "generated/prisma/enums";
 import { InviteGroupDto } from "./dto/invite-group.dto";
 

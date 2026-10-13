@@ -2,7 +2,7 @@ import { ForbiddenException, Injectable, UnauthorizedException } from "@nestjs/c
 import { JwtService } from "@nestjs/jwt";
 
 import {ConnectedSocket, MessageBody, OnGatewayConnection, OnGatewayDisconnect, SubscribeMessage, WebSocketGateway, WebSocketServer} from "@nestjs/websockets"
-import { PrimsaService } from "src/prisma.service";
+import { PrimsaService } from "../prisma.service";
 
 import {Socket, Server} from "socket.io";
 
