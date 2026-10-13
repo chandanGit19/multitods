@@ -3,7 +3,7 @@ import { GroupService } from "src/group/group.service";
 import { PrimsaService } from "../prisma.service";
 import { CreateTaskDto } from "./dto/create-task.dto";
 import { TaskEventType, TaskStatus } from "generated/prisma/enums";
-import { RealtimeGateWay } from "src/realtime/realtime.gateway";
+import { RealtimeGateWay } from "../realtime/realtime.gateway";
 
 
 
