@@ -1,5 +1,5 @@
 import { BadRequestException, Injectable, NotFoundException } from "@nestjs/common";
-import { GroupService } from "src/group/group.service";
+import { GroupService } from "../group/group.service";
 import { PrimsaService } from "../prisma.service";
 import { CreateTaskDto } from "./dto/create-task.dto";
 import { TaskEventType, TaskStatus } from "generated/prisma/enums";

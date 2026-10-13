@@ -3,8 +3,8 @@ import { Module } from '@nestjs/common';
 import { TaskController } from './task.controller';
 import { TaskService } from './task.service';
 import { PrimsaService } from '../prisma.service';
-import { GroupModule } from 'src/group/group.module';
-import { RealtimeModule } from 'src/realtime/realtime.module';
+import { GroupModule } from '../group/group.module';
+import { RealtimeModule } from '../realtime/realtime.module';
 
 
 @Module({
